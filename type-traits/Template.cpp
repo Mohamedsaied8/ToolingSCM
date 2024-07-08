@@ -6,9 +6,12 @@ TEST(Module1,UseTemplateForSimpleType)
 {
 	Storage<int> storageInt{1,2,3,4,5};
 	Storage<long> storageLong {2,4,6,8};
+	Storage<unsigned int> storageUnsigned {2,4,6,8};
 
 	ASSERT_EQ(storageInt.GetSum(),15);
 	ASSERT_EQ(storageLong.GetSum(),20);
+	ASSERT_EQ(storageUnsigned.GetSum(),20);
+
 }
 
 TEST(Module1, UseTemplateForSimpleTypeAndSpecifyConcreteSize)
