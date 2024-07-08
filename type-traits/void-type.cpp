@@ -5,6 +5,7 @@
 TEST(Module2, VoidTest)
 {
 	ASSERT_EQ(is_void<int>::value, false);
+	ASSERT_EQ(is_void<char>::value, false);
 	ASSERT_EQ(is_void<void>::value, true);
 }
 
