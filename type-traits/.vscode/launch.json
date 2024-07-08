@@ -1,0 +1,26 @@
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Example",
+            "preLaunchTask": "build",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "/home/mohamed/.cache/bazel/_bazel_mohamed/e9e1ab966e6c0e8ebb2062b12e21ff2c/execroot/_main/bazel-out/k8-dbg/bin/type-traits/type-traits",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "/home/mohamed/Desktop/type_traits/vscode-bazel-type-traits/bazel-vscode-bazel-type-traits/type-traits",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": false
+                }
+            ]
+        },
+    ]
+}
